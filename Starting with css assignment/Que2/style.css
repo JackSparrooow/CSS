@@ -1,0 +1,22 @@
+h1 {
+    color: Red;
+}
+/* Specificity(110) */
+.Mumbai .Fifty-Students {
+    color: yellow;
+}
+/* Specificity(100) */
+.Delhi {
+    color: green;
+}
+
+/* Specificity(110) */
+.Mumbai .Twenty-Students {
+    color: pink;
+}
+
+/* It all Depends on Specificity--Higher specificity get more chance to print output */
+/* Specificity(111) */
+#One .Nagpur .Twenty-Students {       
+     color: blue;
+}
